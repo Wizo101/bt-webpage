@@ -10,7 +10,7 @@ import PriceEstimator from "./components/feature/PriceEstimator";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/bt-webpage/">
       <Routes>
         <Route index element={<HomePageWithScroll />}></Route>
         <Route path="/about" element={<About />}></Route>
