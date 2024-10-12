@@ -6,9 +6,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
-    "start": "react-scripts start",
     "dev": "vite",
-    "build": "react-scripts build",
+    "build": "vite build --base=/https://github.com/Wizo101/website.git/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
