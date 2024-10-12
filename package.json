@@ -7,7 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
     "dev": "vite",
-    "build": "vite build --base=/https://github.com/Wizo101/website.git/",
+    "build": "vite build --base=/https://github.com/Wizo101/bt-webpage.git/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
